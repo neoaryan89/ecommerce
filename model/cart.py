@@ -15,13 +15,10 @@ class Cart:
     def get_discount(self):
         return self.cart_discount
 
-    def set_x(self, discount):
-        self.discount = discount
-
     def get_total(self):
         return self.cart_total
 
-    def set(self, x):
+    def set_discount(self, x):
         self.cart_discount = discount
 
     def get_tax(self):
